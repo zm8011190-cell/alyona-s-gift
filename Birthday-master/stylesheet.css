@@ -33,9 +33,9 @@ body.purple-decor .balloons h2 {
 }
 
 .balloon-img {
-	width: 100%;
-	height: auto;
-	max-width: none;
+	width: 240px !important;
+	height: 438px !important;
+	max-width: none !important;
 	display: block;
 	filter: drop-shadow(0 0 12px rgba(255, 20, 147, 0.8));
 }
@@ -1379,6 +1379,11 @@ audio {
 	.balloons h2 {
 		top: 55px;
 		font-size: 54px;
+	}
+
+	.balloon-img {
+		width: 150px !important;
+		height: 274px !important;
 	}
 }
 .balloons h2 {
