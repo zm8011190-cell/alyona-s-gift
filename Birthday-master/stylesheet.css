@@ -36,6 +36,8 @@ body.purple-decor .balloons h2 {
 	width: 240px !important;
 	height: 438px !important;
 	max-width: none !important;
+	min-width: 240px;
+	min-height: 438px;
 	display: block;
 	filter: drop-shadow(0 0 12px rgba(255, 20, 147, 0.8));
 }
