@@ -43,6 +43,7 @@ body.purple-decor .balloons:nth-child(6n) h2 { color: #000000; }
 body.purple-decor .balloons:nth-child(7n) h2 { color: #FF1493; }
 
 body.purple-decor .balloons h2 {
+	color: #000000 !important;
 	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
 }
 
@@ -52,6 +53,18 @@ body.purple-decor .balloons h2 {
 	max-width: none;
 	display: block;
 	filter: drop-shadow(0 0 12px rgba(255, 20, 147, 0.8));
+}
+
+#b1 .balloon-img,
+#b3 .balloon-img,
+#b5 .balloon-img {
+	filter: brightness(0) saturate(100%) invert(23%) sepia(95%) saturate(7485%) hue-rotate(318deg) brightness(101%) contrast(102%);
+}
+
+#b2 .balloon-img,
+#b4 .balloon-img,
+#b6 .balloon-img {
+	filter: brightness(0) invert(1);
 }
 
 .balloons {

@@ -35,13 +35,16 @@ $('document').ready(function(){
 			var center = $(window).width()/2;
 			var gap = Math.min(105, Math.max(70, ($(window).width()-100)/5));
 			var firstLeft = center - (gap * 2.5);
+			var banner = $('.bannar')[0];
+			var bannerBox = banner ? banner.getBoundingClientRect() : {bottom: 300};
+			var rowTop = bannerBox.bottom + window.pageYOffset + 18;
 			var positions = [
-				{top:430, left:firstLeft},
-				{top:415, left:firstLeft + gap},
-				{top:405, left:firstLeft + gap * 2},
-				{top:405, left:firstLeft + gap * 3},
-				{top:415, left:firstLeft + gap * 4},
-				{top:430, left:firstLeft + gap * 5}
+				{top:rowTop + 18, left:firstLeft},
+				{top:rowTop + 8, left:firstLeft + gap},
+				{top:rowTop, left:firstLeft + gap * 2},
+				{top:rowTop, left:firstLeft + gap * 3},
+				{top:rowTop + 8, left:firstLeft + gap * 4},
+				{top:rowTop + 18, left:firstLeft + gap * 5}
 			];
 			var method = animate ? 'animate' : 'css';
 			$('.balloons').each(function(index) {
