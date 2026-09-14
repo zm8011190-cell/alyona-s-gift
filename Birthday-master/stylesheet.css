@@ -33,9 +33,9 @@ body.purple-decor .balloons h2 {
 }
 
 .balloon-img {
-	width: 100%;
-	height: auto;
-	max-width: 100%;
+	width: 80px;
+	height: 146px;
+	max-width: none;
 	display: block;
 	filter: drop-shadow(0 0 12px rgba(255, 20, 147, 0.8));
 }
@@ -1359,26 +1359,26 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 110px;
-	height: 201px;
+	width: 80px;
+	height: 146px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 110px 201px;
+	background-size: 80px 146px;
 	left: 50%;
-	margin-left: -55px;
+	margin-left: -40px;
 	transform: none;
 }
 
 @media (max-width: 600px) {
 	.balloons {
-		width: 76px;
-		height: 139px;
-		background-size: 76px 139px;
-		margin-left: -38px;
+		width: 64px;
+		height: 117px;
+		background-size: 64px 117px;
+		margin-left: -32px;
 	}
 
 	.balloons h2 {
-		top: 55px;
-		font-size: 54px;
+		top: 28px;
+		font-size: 32px;
 	}
 
 	.balloon-img {
