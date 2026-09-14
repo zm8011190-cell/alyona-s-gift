@@ -2,7 +2,7 @@ $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
-$('document').ready(function(){
+$(document).ready(function(){
 		var vw;
 		var customMessages = [
 			'Для тебя, Алёна',
