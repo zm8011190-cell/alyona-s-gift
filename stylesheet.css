@@ -44,7 +44,7 @@ body.purple-decor .balloons:nth-child(7n) h2 { color: #FF1493; }
 
 body.purple-decor .balloons h2 {
 	color: #000000 !important;
-	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
 }
 
 .balloon-img {
@@ -167,7 +167,7 @@ body.purple-decor .balloons h2 {
 }
 
 .cobertura{
-	background:rgba(54,8,35,1);
+	background:rgba(90,11,61,1);
   border-radius:150px;
   position:absolute;
   top:60%;
@@ -181,7 +181,7 @@ body.purple-decor .balloons h2 {
 
 .cobertura:after,
 .cobertura:before{
-	background:rgba(54,8,35,1);
+	background:rgba(90,11,61,1);
   border-radius:300px;
   content:"";
   position:absolute;
@@ -200,7 +200,7 @@ body.purple-decor .balloons h2 {
 }
 
 .bizcocho{
-	background:rgb(30, 0, 20);
+	background:rgb(36, 0, 24);
   position:absolute;
   bottom:0;
   left:50%;
@@ -1433,7 +1433,7 @@ audio {
 	font-size: 30px;
 	font-weight: 700;
 	color: #FFFFFF;
-	text-shadow: 2px 2px 0 #000000, 0 0 8px #FF1493;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4), 0 0 8px rgba(255, 105, 180, 0.7);
 	line-height: 1;
 	text-align: center;
 	transform: translateY(-50%);
