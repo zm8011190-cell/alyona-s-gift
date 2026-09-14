@@ -33,7 +33,7 @@ $('document').ready(function(){
 
 		function placeBalloonRow(animate) {
 			var center = $(window).width()/2;
-			var gap = Math.min(120, ($(window).width()-120)/5);
+			var gap = Math.min(255, ($(window).width()-260)/5);
 			var firstLeft = center - (gap * 2.5);
 			var positions = [
 				{top:430, left:firstLeft},

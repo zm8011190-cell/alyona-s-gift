@@ -35,7 +35,7 @@ body.purple-decor .balloons h2 {
 .balloon-img {
 	width: 100%;
 	height: auto;
-	max-width: 150px;
+	max-width: none;
 	display: block;
 	filter: drop-shadow(0 0 12px rgba(255, 20, 147, 0.8));
 }
@@ -1359,26 +1359,26 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 110px;
-	height: 201px;
+	width: 240px;
+	height: 438px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 110px 201px;
+	background-size: 240px 438px;
 	left: 50%;
-	margin-left: -55px;
+	margin-left: -120px;
 	transform: none;
 }
 
 @media (max-width: 600px) {
 	.balloons {
-		width: 86px;
-		height: 157px;
-		background-size: 86px 157px;
-		margin-left: -43px;
+		width: 150px;
+		height: 274px;
+		background-size: 150px 274px;
+		margin-left: -75px;
 	}
 
 	.balloons h2 {
-		top: 32px;
-		font-size: 34px;
+		top: 55px;
+		font-size: 54px;
 	}
 }
 .balloons h2 {
@@ -1386,10 +1386,10 @@ audio {
 	font-family: 'Signika', sans-serif;
 	position: absolute;
 	left: 0;
-	top: 48px;
+	top: 75px;
 	width: 100%;
 	margin: 0;
-	font-size: 48px;
+	font-size: 72px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-shadow: 2px 2px 0 #000000, 0 0 8px #FF1493;
