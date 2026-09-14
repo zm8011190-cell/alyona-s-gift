@@ -1359,26 +1359,26 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 64px;
-	height: 117px;
+	width: 32px;
+	height: 59px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 64px 117px;
+	background-size: 32px 59px;
 	left: 50%;
-	margin-left: -32px;
+	margin-left: -16px;
 	transform: none;
 }
 
 @media (max-width: 600px) {
 	.balloons {
-		width: 52px;
-		height: 95px;
-		background-size: 52px 95px;
-		margin-left: -26px;
+		width: 26px;
+		height: 48px;
+		background-size: 26px 48px;
+		margin-left: -13px;
 	}
 
 	.balloons h2 {
-		top: 20px;
-		font-size: 27px;
+		top: 10px;
+		font-size: 18px;
 	}
 }
 .balloons h2 {
@@ -1386,10 +1386,10 @@ audio {
 	font-family: 'Signika', sans-serif;
 	position: absolute;
 	left: 0;
-	top: 38px;
+	top: 10px;
 	width: 100%;
 	margin: 0;
-	font-size: 42px;
+	font-size: 18px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-shadow: 2px 2px 0 #000000, 0 0 8px #FF1493;
