@@ -56,6 +56,7 @@ $('document').ready(function(){
 			$('#b1,#b2,#b3,#b4,#b5,#b6').stop();
 			placeBalloonRow(true);
 		});
+		placeBalloonRow(false);
 
 	$('#turn_on').click(function(){
 		$('#bulb_yellow').addClass('bulb-glow-yellow');
