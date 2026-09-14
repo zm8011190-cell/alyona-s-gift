@@ -1359,26 +1359,26 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 100px;
-	height: 183px;
+	width: 64px;
+	height: 117px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 100px 183px;
+	background-size: 64px 117px;
 	left: 50%;
-	margin-left: -50px;
+	margin-left: -32px;
 	transform: none;
 }
 
 @media (max-width: 600px) {
 	.balloons {
-		width: 76px;
-		height: 139px;
-		background-size: 76px 139px;
-		margin-left: -38px;
+		width: 52px;
+		height: 95px;
+		background-size: 52px 95px;
+		margin-left: -26px;
 	}
 
 	.balloons h2 {
-		top: 28px;
-		font-size: 34px;
+		top: 20px;
+		font-size: 27px;
 	}
 }
 .balloons h2 {
