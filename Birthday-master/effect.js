@@ -33,7 +33,7 @@ $('document').ready(function(){
 
 		function placeBalloonRow(animate) {
 			var center = $(window).width()/2;
-			var gap = Math.min(255, ($(window).width()-260)/5);
+			var gap = Math.min(105, Math.max(70, ($(window).width()-100)/5));
 			var firstLeft = center - (gap * 2.5);
 			var positions = [
 				{top:430, left:firstLeft},
@@ -44,7 +44,7 @@ $('document').ready(function(){
 				{top:430, left:firstLeft + gap * 5}
 			];
 			var method = animate ? 'animate' : 'css';
-			$('#b11,#b22,#b33,#b44,#b55,#b66').each(function(index) {
+			$('.balloons').each(function(index) {
 				$(this)[method](positions[index], animate ? 500 : undefined);
 			});
 		}
@@ -136,18 +136,11 @@ $('document').ready(function(){
 		});
 	}
 	$('#balloons_flying').click(function(){
-		$('#b1,#b4,#b5').addClass('balloons-rotate-behaviour-one');
-		$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
-		// $('#b3').addClass('balloons-rotate-behaviour-two');
-		// $('#b4').addClass('balloons-rotate-behaviour-one');
-		// $('#b5').addClass('balloons-rotate-behaviour-one');
-		// $('#b6').addClass('balloons-rotate-behaviour-two');
-		loopOne();
-		loopTwo();
-		loopThree();
-		loopFour();
-		loopFive();
-		loopSix();
+		$('#b1,#b2,#b3,#b4,#b5,#b6').stop(true, true);
+		$('.balloons').removeClass('balloons-rotate-behaviour-one balloons-rotate-behaviour-two');
+		placeBalloonRow(true);
+		$('.balloons').css('opacity','0.9');
+		$('.balloons h2').stop(true, true).fadeIn(700);
 		
 		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#cake_fadein').fadeIn('slow');

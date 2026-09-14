@@ -1377,8 +1377,9 @@ audio {
 	}
 
 	.balloons h2 {
-		top: 28px;
-		font-size: 32px;
+		top: 50%;
+		font-size: 24px;
+		transform: translateY(-50%);
 	}
 
 	.balloon-img {
@@ -1391,13 +1392,16 @@ audio {
 	font-family: 'Signika', sans-serif;
 	position: absolute;
 	left: 0;
-	top: 75px;
+	top: 50%;
 	width: 100%;
 	margin: 0;
-	font-size: 72px;
+	font-size: 30px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-shadow: 2px 2px 0 #000000, 0 0 8px #FF1493;
+	line-height: 1;
+	text-align: center;
+	transform: translateY(-50%);
 	display: none;
 }
 #b1,#b11 {
