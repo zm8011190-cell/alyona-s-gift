@@ -57,13 +57,19 @@ body.purple-decor .balloons h2 {
 
 #b1 .balloon-img,
 #b3 .balloon-img,
-#b5 .balloon-img {
+#b5 .balloon-img,
+#b11 .balloon-img,
+#b33 .balloon-img,
+#b55 .balloon-img {
 	filter: brightness(0) saturate(100%) invert(23%) sepia(95%) saturate(7485%) hue-rotate(318deg) brightness(101%) contrast(102%);
 }
 
 #b2 .balloon-img,
 #b4 .balloon-img,
-#b6 .balloon-img {
+#b6 .balloon-img,
+#b22 .balloon-img,
+#b44 .balloon-img,
+#b66 .balloon-img {
 	filter: brightness(0) invert(1);
 }
 
