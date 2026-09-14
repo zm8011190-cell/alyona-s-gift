@@ -161,7 +161,7 @@ body.purple-decor .balloons h2 {
 }
 
 .cobertura{
-  background:rgba(236,231,227,1);
+	background:rgba(54,8,35,1);
   border-radius:150px;
   position:absolute;
   top:60%;
@@ -175,7 +175,7 @@ body.purple-decor .balloons h2 {
 
 .cobertura:after,
 .cobertura:before{
-  background:rgba(236,231,227,1);
+	background:rgba(54,8,35,1);
   border-radius:300px;
   content:"";
   position:absolute;
@@ -194,7 +194,7 @@ body.purple-decor .balloons h2 {
 }
 
 .bizcocho{
-  background:rgb(20, 0, 40);
+	background:rgb(30, 0, 20);
   position:absolute;
   bottom:0;
   left:50%;
