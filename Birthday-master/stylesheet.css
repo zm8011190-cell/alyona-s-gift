@@ -1355,7 +1355,7 @@ audio {
 }
 
 .balloons {
-	position: fixed;
+	position: absolute;
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
@@ -1366,6 +1366,20 @@ audio {
 	left: 50%;
 	margin-left: -50px;
 	transform: none;
+}
+
+@media (max-width: 600px) {
+	.balloons {
+		width: 76px;
+		height: 139px;
+		background-size: 76px 139px;
+		margin-left: -38px;
+	}
+
+	.balloons h2 {
+		top: 28px;
+		font-size: 34px;
+	}
 }
 .balloons h2 {
 	text-transform: uppercase;
