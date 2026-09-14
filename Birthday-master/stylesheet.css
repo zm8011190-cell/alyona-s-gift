@@ -1,5 +1,6 @@
 body {
 	background: #FF69B4;
+	position: relative;
 	-webkit-transition:background-color linear 5s ease;
 	-moz-transition:background-color linear 5s ease;
 	-o-transition:background-color linear 5s ease;
@@ -7,9 +8,22 @@ body {
 	transition:background-color linear 5s ease;
 	overflow-x:hidden;
 }
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	background: linear-gradient(rgba(18, 0, 14, 0.48), rgba(18, 0, 14, 0.48)), url('aly2.JPG') center center / cover no-repeat;
+	opacity: 0;
+	pointer-events: none;
+	z-index: 0;
+	transition: opacity 1.2s ease;
+}
 
 body.purple-decor {
 	background: #FF1493;
+}
+body.purple-decor::before {
+	opacity: 1;
 }
 
 body.purple-decor .bannar {
@@ -46,6 +60,8 @@ body.purple-decor .balloons h2 {
 
 .container {
 	display: none;
+	position: relative;
+	z-index: 1;
 }
 
 .cake{
@@ -1377,7 +1393,7 @@ audio {
 	}
 
 	.balloons h2 {
-		top: 50%;
+		top: 44%;
 		font-size: 24px;
 		transform: translateY(-50%);
 	}
@@ -1392,7 +1408,7 @@ audio {
 	font-family: 'Signika', sans-serif;
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 44%;
 	width: 100%;
 	margin: 0;
 	font-size: 30px;
